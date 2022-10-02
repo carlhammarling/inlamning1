@@ -37,7 +37,7 @@ const question = () => {
         }
         else {
             console.log('Antal gissningar: ' + count); 
-            alert ('Nåt blev fel, försök igen! Räknas ej.');
+            alert ('Nåt blev fel, försök igen! Räknas ej.'); //tillexmpel om man råkar skriva in en string
             question();  
         }
     }
